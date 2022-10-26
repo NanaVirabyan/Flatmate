@@ -1,0 +1,500 @@
+
+* {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.logo,.header-right,.well{
+	background:none;
+	border:none;
+}
+body{
+	background:#F6F6F7;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.bg{
+	background:url(../images/head-bg.jpg) no-repeat 0px 0px;
+}
+.header{
+	padding: 1em 0;
+}
+.logo{
+	margin-top: 1em;
+}
+
+.logoDesign{
+    grid-gap: 10px;
+}
+.d-flex{
+	display: flex;
+}
+.header__logo{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+}
+.header-right{
+	color:#CAD1DB;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.5em;
+	text-align:right;
+}
+.header-right a{
+	text-decoration:none;
+}
+.header-right p i a{
+	margin-right: 1.2em;
+	color: #CAD1DB;
+	display: inline-block;
+}
+.login{
+	background: #3D4B60;
+	color: #CAD1DB;
+	padding: 0.4em 1.5em;
+	text-decoration: none;
+	border-radius: 0.3em;
+	display: inline-block;
+	
+}
+.slide-banner-left{
+	font-family: 'Enriqueta', serif;
+}
+.slide-banner-left h1{
+	color: #FFF;
+	font-size: 3.5em;
+}
+.slide-banner-left p{
+	color: #C5D2E5;
+	font-size: 1.5em;
+	width: 64%;
+	margin: 2em 0 2.5em;
+}
+.b-btn{
+	background: #67BF95;
+	padding: 0.65em 1.3em;
+	outline: none;
+	border: none;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+.b-btn:hover{
+	background: #3D4B60;
+}
+.slide-banner{
+	padding: 3em 0 3em;
+}
+.textInfoSection{
+	padding:5em  0;
+}
+.top-grid-right ul li{
+	list-style-type: none;
+	display: block;
+	margin-bottom: 2em;
+}
+.top-grid-right ul li a span{
+	width: 94px;
+	height: 94px;
+	display: inline-block;
+}
+.icon1{
+	background: url(../images/icons.png) no-repeat 0px 0px;
+}
+.icon2{
+	background: url(../images/icons.png) no-repeat 0px -152px;
+}
+.top-grid-center h2{
+	color: #505965;
+	font-size: 3.2em;
+	font-family: 'Enriqueta', serif;
+}
+.top-grid-center p {
+	color: #4B596C;
+	font-size: 1.4em;
+	margin: 1em 0 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+}
+
+.carousel-control.right,.carousel-control.left{
+	background:none;
+}
+.carousel-control .glyphicon-chevron-right {
+	right: -50%;
+}
+.carousel-control .glyphicon-chevron-left {
+	left: -50%;
+}
+.browserSection{
+	text-align: center;
+	background: url(../images/mid-bg.jpg) repeat-x 0px 0px;
+	padding-top: 2.5em;
+}
+.browserSection h3{
+	color: #FFF;
+	font-size: 3em;
+	margin: 0.8em 0 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 600;
+}
+.browserSection p{
+	color: #FFF;
+	font-size: 2em;
+	margin: 0 0 1em 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 100;
+}
+.pricesSecs-head{
+	text-align:center;
+	margin-bottom: 3em;
+}
+.pricesSecs-head h2{
+	color: #37414E;
+	font-size: 2.5em;
+	margin: 0.8em 0 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 600;
+}
+.pricesSecs-head p{
+	color: #858B93;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 100;
+	width: 80%;
+	margin: 0 auto 1em auto;
+}
+.pricesSec h3{
+	background: #4B596C;
+	color: #FFF;
+	text-align: center;
+	padding: 0.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.2em;
+	margin: 0;
+	border-radius: 0.1em 0.1em 0 0;
+}
+.pricesSec ul{
+	background: #E9EEF3;
+	margin: 0;
+	padding: 2em;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 3em;
+}
+.pricesSec ul li{
+	list-style: none;
+	margin: 0em 0 3em;
+}
+.pricesSec ul li a{
+	text-decoration:none;
+}
+.pricesSec ul li a.monthPrice{
+	color: #6D737B;
+	font-size: 2.2em;
+	font-weight: 700;
+}
+.pricesSec ul li a{
+	color: #6D737B;
+	font-size: 1.5em;
+}
+.price-btn1{
+	display: block;
+	background: #4B596C;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 1.8em;
+	color: #FFF;
+	font-weight: 600;
+	padding: 0.5em;
+}
+.pricesSecs{
+	padding: 2em 0 7em;
+}
+.pricesSec1 span{
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	background: url(../images/right-icon.png) no-repeat 0px 0px;
+	position: absolute;
+	top: -20px;
+	right: 0;
+}
+.pricesSec1 ul{
+	background:#DEEBDE;
+}
+.pricesSec1 h3,.pricesSec1 a.price-btn1{
+	background:#58AD52;
+}
+.pricesSec1 ul li a.monthPrice{
+	color:#58AD52;
+}
+.pricesSec2 h3,.pricesSec2 a.price-btn1{
+	background:#52A1AD;
+}
+.pricesSec2 ul li a.monthPrice{
+	color:#52A1AD;
+}
+.pricesSec2 ul{
+	background:#DEE9EC;
+}
+.video{
+	text-align:center;
+	background:#E9EAED;
+}
+.video h4{
+	color: #4B596C;
+	font-size: 2.3em;
+	margin: 1em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 600;
+}
+.video-bg{
+	background: url(../images/video-img.jpg) no-repeat 0px 0px;
+	min-height: 722px;
+	background-size: 100% 100%;
+	position: relative;
+}
+.video-bg a{
+	height: 91px;
+	width: 90px;
+	display: inline-block;
+	background: url(../images/play-button.png) no-repeat 0px 0px;
+	position: absolute;
+	top: 45%;
+	background-size: 100% 100%;
+	left: 47%;
+}
+.contact{
+	background: #2D3035;
+	font-family: 'Open Sans', sans-serif;
+	padding: 3.5em 0 7em;
+}
+.contact p i{
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background:url(../images/msg-icon.png) no-repeat 0px 0px; 
+}
+.contact p{
+	text-align: center;
+	margin: 0;
+	padding: 3em 0 4em;
+}
+.contact span{
+	color: #FFF;
+	display: block;
+	font-size: 1.7em;
+	margin-bottom: 0.2em;
+}
+.contact span label{
+	color: #C63A3D;
+	vertical-align: top;
+	margin-left: 0.1em;
+}
+.contact input[type="text"],.contact textarea{
+	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+	border: 2px solid #42454A;
+	transition: border-color 0.3s;
+	-o-transition: border-color 0.3s;
+	-ms-transition: border-color 0.3s;
+	-moz-transition: border-color 0.3s;
+	-webkit-transition: border-color 0.3s;
+	-webkit-appearance: none;
+	padding: 1.15em;
+	background: #2F3237;
+	color: #858B93;
+	width: 100%;
+	resize: none;
+	font-size: 1.3em;
+}
+.contactInfo div{
+	margin: 0 0 2em 0;
+}
+.contact textarea{
+	height: 213px;
+}
+.contact input[type="submit"]{
+	float: right;
+	margin: 1em 0 0 0;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	text-transform: uppercase;
+	padding: 0.77em 2em;
+	font-size: 1.5em;
+	outline:none;
+	cursor:pointer;
+}
+.footer{
+	background: #2A2D33;
+	padding: 1.3em 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #AAA;
+	font-size: 1.1em;
+}
+.footer p{
+	margin:0;
+}
+.footer ul li{
+	display:inline-block;
+	list-style:none;
+	margin:0;
+}
+.footer ul{
+	padding:0;
+	margin:0;
+}
+.footer ul li img{
+	vertical-align: bottom;
+	margin-right: 1em;
+}
+.footer ul li a{
+	color:#AAA;
+}
+.footer-left{
+	margin-top: 0.7em;
+}
+.footer-right ul li a span{
+	width:40px;
+	height:40px;
+	display:inline-block;
+}
+.footer-right ul li:first-child{
+	margin-right:0.8em;
+}
+.footer-right ul li a.twitter span{
+	background:url(../images/twitter-icon.png) no-repeat 0px 0px;
+}
+.footer-right ul li a.facebook span{
+	background:url(../images/face-book-icon.png) no-repeat 0px 0px;
+}
+.footer-right {
+	text-align:right;
+}
+.text-box-light{
+	background: url(../images/calender.html) no-repeat 95% 50%;
+	cursor:pointer;
+	position: relative;
+}
+input[type=checkbox].css-checkbox1,input[type=checkbox].css-checkbox2{
+	display: none;
+}
+input[type=checkbox].css-checkbox1 + label.css-label1 {
+	height: 20px;
+	width:21px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: super;
+	cursor: pointer;
+	background: url(../images/bsprit1.png) no-repeat -194px -4px;
+}
+input[type=checkbox].css-checkbox1:checked + label.css-label1 {
+	background: url(../images/bsprit1.png) no-repeat -215px -4px;
+}
+input[type=checkbox].css-checkbox2 + label.css-label2 {
+	height: 20px;
+	width: 23px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: -20px 0px;
+	vertical-align: super;
+	cursor: pointer;
+	background: url(../images/bsprit1.png) no-repeat -215px -4px;
+}
+input[type=checkbox].css-checkbox2:checked + label.css-label2 {
+	background: url(../images/bsprit1.png) no-repeat -194px -4px;
+}
+.visa{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/bsprit1.png) no-repeat -30px 0px;
+}
+input[type=checkbox].css-checkbox3,input[type=checkbox].css-checkbox4,input[type=checkbox].css-checkbox5,input[type=checkbox].css-checkbox6{
+	display: none;
+}
+input[type=checkbox].css-checkbox3 + label.css-label3 {
+	height: 22px;
+	width: 21px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 -38px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: url(../images/footer.html);
+}
+input[type=checkbox].css-checkbox3:checked + label.css-label3 {
+	background-position: 0px 0px;
+}
+input[type=checkbox].css-checkbox4 + label.css-label4 {
+	height: 22px;
+	width: 21px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: url(../images/footer.html);
+}
+input[type=checkbox].css-checkbox4:checked + label.css-label4 {
+	background-position: 0px -38px;
+}
+input[type=checkbox].css-checkbox5 + label.css-label5 {
+	height: 22px;
+	width: 21px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 -38px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: url(../images/footer.html);
+}
+input[type=checkbox].css-checkbox5:checked + label.css-label5 {
+	background-position: 0px 0px;
+}
+input[type=checkbox].css-checkbox6 + label.css-label6 {
+	height: 22px;
+	width: 21px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: url(../images/footer.html);
+}
+input[type=checkbox].css-checkbox6:checked + label.css-label6 {
+	background-position: 0px -38px;
+}
+.submitBtn{
+	float: right;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; 
+}
+.a:hover, a:focus{
+	text-decoration: none !important;
+}
